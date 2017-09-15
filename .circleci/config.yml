@@ -11,6 +11,8 @@ jobs:
 
       - checkout
 
+      - setup_remote_docker
+
 #      - restore_cache:
 #          key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 #
