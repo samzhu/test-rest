@@ -18,6 +18,7 @@ public class TestControllert {
     public Map<String, String> test() {
         Map<String, String> data = new HashMap<String, String>();
         data.put("rc", "1");
+        data.put("version", "1.0");
         return data;
     }
 }

@@ -4,6 +4,8 @@ label maintainer "spike19820318@gmail.com"
 
 ADD build/libs/test-rest-0.0.1-SNAPSHOT.jar app.jar
 
+RUN sh -c 'touch /app.jar'
+
 EXPOSE 8080
 
 ENV JAVA_OPTS=""
