@@ -21,7 +21,7 @@ jobs:
 #            - ~/.m2
 #          key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 
-      - run: gradlew build
+      - run: gradle build
 
       - store_test_results:
           path: target/surefire-reports
